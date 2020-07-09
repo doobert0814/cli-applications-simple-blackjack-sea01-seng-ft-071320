@@ -41,6 +41,7 @@ def hit?(current_total)
      current_total
   else
     invalid_command
+    hit?
   end
 end
 
